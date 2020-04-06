@@ -9,5 +9,10 @@
     },
     "dependencies": {
         "express": "^4.16.1"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:jacobintern/FirstNodePrj.git"
+    },
+    "license": "UNLICENSED"
 }
