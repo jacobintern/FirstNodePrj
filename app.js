@@ -1,13 +1,11 @@
-'use strict';
-
-const express = require('express');
+import express from 'express';
 
 // Constants
-const PORT = 8080;
-const HOST = '0.0.0.0';
+var PORT = 8080;
+var HOST = '0.0.0.0';
 
 // App
-const app = express();
+var app = express();
 app.get('/', (req, res) => {
   res.send('Hello World, this is express framework.');
 });
