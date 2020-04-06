@@ -1,5 +1,12 @@
-from node:latest
+FROM node:latest
 
 WORKDIR /usr/src/app
 
-expose 3000
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 8080
+CMD ["node","app.js"]
