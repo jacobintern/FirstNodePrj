@@ -1,7 +1,7 @@
-import express from 'express';
+var express = require('express');
 
 // Constants
-var PORT = 8080;
+var PORT = 3000;
 var HOST = '0.0.0.0';
 
 // App
